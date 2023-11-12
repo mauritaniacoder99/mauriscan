@@ -1,0 +1,5 @@
+This script is a simple port scanner.
+ It prompts the user to input a website URL, 
+ starting port, and ending port. It then iterates through a range of ports, 
+ calling the scan_port function for each port. The scan_port function attempts to establish a new socket, 
+ connects to the specified port on the host, and prints whether the port is open or closed.
